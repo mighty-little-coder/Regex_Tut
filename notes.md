@@ -31,7 +31,7 @@ Single characters:
     - "\S" = anything that is NOT a white space
     - "." = any character
 
-Qualifiers:
+Quantifiers:
 
     - "*" = this is a quantifier meaning 0 or more characters
     - "+" = this is a quantifier meaning 1 or more characters
@@ -61,16 +61,16 @@ Alternation:
 
 The following RegEx has been designed to pick out phone numbers written in any common or popularly used format:
 
-    "\(?\d{3}[-.\s)]\s?\d{3}[-.\s]\d{4}"
+    ```\(?\d{3}[-.\s)]\s?\d{3}[-.\s]\d{4}```
 
 The following text block is used to display the regex functionality:
 
-    This is my official phone number: (860) 555-8654. My old phone number was 860-867-5309 but that has been gone for quite some time. If I am unreachable, you can find me via my wife @ 949.102.0304 or if I am at work, the reachable number will be 203 911 2346.
+    This is my official phone number: (860) 555-8654. My old phone number was 860-de867-5309 but that has been gone for quite some time. If I am unreachable, you can find me via my wife @ 949.102.0304 or if I am at work, the reachable number will be 203 911 2346.
 
 The following RegEx has been designed to pick out emails written with common or popularly used addresses:
 
-    "[\w+\.+w\+]+@\w+.(com|net|edu)"
+    ```[\w+\.+w\+]+@\w+.(com|net|edu)```
 
 The following text block is used to display the regex functionality:
 
-    If you cannot reach me by phone, feel free tot reach out via email. You'll find my personal email to be jeremy.thecoder@gmail.com. To reach my professional email, contact me @ mr.whosetheboss@yahoo.net. If this is spam, I will respond promptly via email at not.a.real.email+spam@aol.edu.
+    If you cannot reach me by phone, feel free tot reach out via email. You'll find my personal email to be jeremy.thecoder@gmail.com. To reach my professional email, contact me @ mr.whosetheboss@yahoo.net. If this is spam, I will respond promptly via email at not.a.real.email+spam@aol.edu.``
